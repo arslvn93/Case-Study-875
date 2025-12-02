@@ -5,179 +5,136 @@
 // To change text, images, or other content, edit the values in this file.
 // =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
-  // -----------------------------------------------------------------------------------------------
-  // GLOBALS
-  // These are values that can be reused throughout the page.
-  // Use the `{{variableName}}` syntax in any string to automatically insert a value from here.
-  // For example, `{{companyName}}` will be replaced with "iStreet Realty Group".
-  // -----------------------------------------------------------------------------------------------
-  globals: {
-    // The main name of the company or brand. Used in the header, footer, and other text.
-    companyName: "iStreet Realty Group",
-
-    // The default text for all major Call-to-Action (CTA) buttons.
-    mainCTAButtonText: "Book A Discovery Call",
-    // The destination URL for all major Call-to-Action (CTA) buttons.
-    mainCTAButtonURL: "https://calendly.com/your-salesgenius-link",
-
-    // The primary theme color for the page (e.g., for tags, links, highlights).
-    // This value is applied to the `--gold` CSS variable.
-    primaryColor: "#e3c379",
-
-    // The accent theme color, typically used for button backgrounds.
-    // This value is applied to the `--accent` CSS variable.
-    accentColor: "#d9c6a2",
-
-    // Facebook Pixel ID for tracking. Leave empty to disable Facebook tracking.
-    facebookPixelId: "1074316633770404",
-
-    // A list of agent objects. This data is used to build the contact cards in the sidebar and footer.
-    // You can add or remove agents from this list.
-    agents: [
+  "globals": {
+    "companyName": "iStreet Realty Group",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "#contact",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2",
+    "agents": [
       {
-        // Full name of the agent.
-        name: "Rick Roccasalva",
-        // (Optional) URL for the agent's photo. If omitted, no photo will be shown for this agent.
-        imageSrc: "https://images.unsplash.com/photo-1557862921-37829c790f19?fit=crop&w=100&q=80",
-        // A list of contact methods for the agent.
-        contactDetails: [
-          { type: "email", value: "rick@istreelrealty.ca" },
-          { type: "phone", value: "(416) 616-9369" }
-        ]
-      },
-      {
-        name: "Steven Simonetti",
-        imageSrc: "https://images.unsplash.com/photo-1560250097-0b93528c311a?fit=crop&w=100&q=80",
-        contactDetails: [
-          { type: "email", value: "steven@istreelrealty.ca" },
-          { type: "phone", value: "(416) 400-7653" }
+        "name": "Rick Roccasalva",
+        "imageSrc": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767184484-biorick.jpg",
+        "contactDetails": [
+          {
+            "type": "email",
+            "value": "rick@istreetrealty.ca"
+          },
+          {
+            "type": "phone",
+            "value": "416 616 9369"
+          }
         ]
       }
     ]
   },
-
-  // -----------------------------------------------------------------------------------------------
-  // HEADER
-  // Content for the main header section at the top of the page.
-  // -----------------------------------------------------------------------------------------------
-  header: {
-    // A small tag or label that appears above the main title.
-    tag: "CASE STUDY",
-    // The main headline (H1) of the page.
-    title: "How We Helped an Investor Win a 10-Offer Bidding War and Secure a Cash-Flowing Duplex in Vaughan",
-    // The subheadline below the main title. Can include HTML tags like <strong> or <a>.
-    subheadline: "Purchased in a <strong>High-Demand Area</strong> With Strong Terms—Now Generating Top-Dollar Rent in a Tight Market"
+  "header": {
+    "tag": "CASE STUDY",
+    "title": "How We Helped a Family of 5 Break Free From Renting and Buy Their Dream Home for $64,000 Below Original Asking",
+    "subheadline": "From Lifetime Renters to Homeowners—Purchased a Spacious 3-Bedroom Detached Home With Income Potential in Their Ideal Location"
   },
-
-  // -----------------------------------------------------------------------------------------------
-  // MAIN BOX
-  // This object contains the content for the two-column layout below the header,
-  // which includes the main summary and the sidebar.
-  // -----------------------------------------------------------------------------------------------
-  mainBox: {
-    // Content for the left column (the main summary).
-    summary: {
-      title: "How We Helped an Investor Win a 10-Offer Bidding War and Secure a Cash-Flowing Duplex in Vaughan",
-      heroImage: { src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80" },
-      subTitle: "Summary",
-      // An array of paragraph strings. Each string is a new paragraph. Can include HTML.
-      paragraphs: [
-        "In one of Vaughan’s most competitive pockets, a <strong>savvy investor client was looking for a cash-flowing, turn-key property to build long-term generational wealth</strong>. The challenge: high demand, limited inventory, and bidding wars on nearly every listing worth seeing.",
-        "After viewing 8 homes, we found a <strong>rare 2-unit property in Woodbridge</strong> underlisted at $999k to spark competition. The listing drew 10 offers—but through strategic negotiation, a larger deposit, firm terms, and a quick close... we won the deal at $1.26M without needing to be the highest bid. The property has since been <strong>rented at top market value</strong>, exceeding the client’s expectations and <strong>setting the foundation for strong equity gains</strong> in the years to come."
+  "mainBox": {
+    "summary": {
+      "title": "How We Helped a Family of 5 Break Free From Renting and Buy Their Dream Home for $64,000 Below Original Asking",
+      "heroImage": {
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1764700008987-IMG_5415.jpg"
+      },
+      "subTitle": "Summary",
+      "paragraphs": [
+        "Meet a family of five who had been renting for years and believed homeownership was out of reach. With three adult children needing space and monthly rent eating away at their income, they were ready for a change—but didn't know if they could make it work financially or navigate the intimidating buying process.",
+        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>PURCHASED FOR $64,000 BELOW ORIGINAL ASKING PRICE</strong> ($1,185,000 vs. original $1,329,000 listing) <strong>NEGOTIATED $64,000 IN SAVINGS</strong> by identifying seller motivation and structuring terms around their urgent timeline <strong>BELOW MARKET VALUE PURCHASE</strong> based on comparable homes of similar size and lot dimensions in the area Secured a 2,280 sq ft detached home with 3 bedrooms, 3 bathrooms, and a partial basement with rental income potential Achieved their dream of a large lot with parking for 4+ cars in their ideal Vaughan location Monthly housing costs are now LOWER than their previous rent while building equity instead of enriching a landlord"
       ]
     },
-    // Content for the right column (the sidebar).
-    sidebar: {
-      title: "About {{companyName}}",
-      image: { src: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?fit=crop&w=200&q=80" },
-      // An array of paragraph strings for the sidebar. Can include HTML like <br> for line breaks.
-      paragraphs: [
-        "At {{companyName}} we are built on integrity, insight, and innovation.",
-        "We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients.",
-        "With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties.",
-        "We prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing.",
-        "<strong>At iStreet Realty Inc., we're more than real estate experts—we're your trusted partner in building your future.</strong>"
+    "sidebar": {
+      "title": "About {{companyName}}",
+      "image": {
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767184484-biorick.jpg"
+      },
+      "paragraphs": [
+        "At iStreet Realty Group, we are built on integrity, insight, and innovation. We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients.\n\nWith over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties.\n\nWe prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing.\n\nAt iStreet Realty Inc., we’re more than real estate experts—we’re your trusted partner in building your future."
       ]
     }
   },
-
-  // -----------------------------------------------------------------------------------------------
-  // SECTIONS
-  // An array of content sections that appear in order below the main box.
-  // You can add, remove, or reorder these section objects.
-  // -----------------------------------------------------------------------------------------------
-  sections: [
-    // `type: "standard"`: A flexible section that can contain a title, paragraphs, a list,
-    // a testimonial, and an image. All properties are optional.
-    // If an `image` is included, the section will render as two columns (text and image).
-    // If no `image` is included, it will be a single, full-width column.
+  "sections": [
     {
-      type: "standard",
-      title: "The Challenge",
-      paragraphs: [
-        "This investor client had a clear goal: <strong>find a cash-flowing, turn-key duplex in one of Vaughan’s most desirable neighborhoods—Woodbridge.</strong> Out in a market filled with bidding wars and underlisted homes designed to spark competition, finding the right property and <strong>winning it without overpaying was no small feat.</strong>",
-        "The biggest challenge? <strong>Every worthwhile home had multiple offers</strong>, and this buyer was competing with aggressive bids from both investors and end-users. There was also <strong>lingering uncertainty around whether a property like this could attract renters at top value</strong>, which could make or break the deal financially."
+      "type": "standard",
+      "title": "The Challenge",
+      "paragraphs": [
+        "They needed a large enough home for three adult children with plenty of outdoor space and parking, but most properties in their desired location were priced well beyond their budget",
+        "They were terrified of overpaying or making a costly mistake since they'd never purchased a home before and didn't understand the process",
+        "Every month they continued renting felt like throwing money away, but they couldn't see a clear path from tenant to homeowner",
+        "They worried about finding a property that wasn't just a place to live, but an actual investment that could build wealth for their family's future"
       ]
     },
     {
-      type: "standard",
-      title: "The Strategy",
-      paragraphs: [
-        "With 8 properties viewed and a clear sense of what would work, the client was ready to move fast. <strong>When 95 Mondavi Rd hit the market—underlisted at $999,000 to fuel a bidding war—we saw an opportunity.</strong>",
-        "Rick’s negotiation strategy focused on strong offer terms, not just price. By removing financing conditions, offering a larger deposit, and proposing a quicker close, he positioned the client as a serious, low-risk buyer. Rick also maintained clear and professional communication with the listing agent throughout, building trust and credibility."
+      "type": "standard",
+      "title": "The Strategy",
+      "paragraphs": [
+        "Conducted a comprehensive financial consultation to show them exactly how homeownership could cost LESS per month than their current rent—making the impossible suddenly achievable",
+        "Strategically identified properties with investment potential, focusing on homes with basement income possibilities to accelerate their wealth-building journey",
+        "Carefully vetted only 7 properties that met their specific criteria—large lot, excellent location, parking for 4+ cars—saving them time and preventing decision fatigue",
+        "Discovered the sellers were leaving town quickly and needed a fast closing, then leveraged this intelligence to negotiate aggressively on price",
+        "Structured a 30-day closing that gave the sellers exactly what they needed, which became our secret weapon to secure a price significantly below market value"
       ],
-      // An optional testimonial object. Renders as a styled blockquote.
-      testimonial: { quote: "“I had an amazing experience working with Rick & Steven at iStreet Realty Group. Communication and follow-through were prompt every step. Negotiating the winning offer was about strategy, not just price!”<br><span>— Vaughan Investor</span>" }
+      "testimonial": {
+        "quote": "\"\"We had met with five other agents before Rick, and none of them came close to his level of professionalism and knowledge. We honestly thought we'd be lifetime renters—that homeownership just wasn't in the cards for us. Rick walked us through every single step of the process and made it all make sense. His negotiation skills are incredible. He got us this home for way less than we thought possible, and now instead of paying rent, we're building equity and have the potential to become landlords ourselves with the basement income. We couldn't have done this without him.\"\"<br><span>— Satisfied Client</span>"
+      }
     },
     {
-      type: "standard",
-      title: "The Solution",
-      paragraphs: [
-        "<strong>The winning offer came in at $1,260,000</strong>—not the highest bid on the table, but the most attractive in terms of certainty, speed, and simplicity. The absence of conditions and the strength of the deposit made the difference, and the seller accepted.",
-        "<strong>After closing, the client successfully rented out both units</strong> of the property at top market value—proving the property’s income potential. The fast, clean closing allowed the client to move quickly and capitalize on a prime investment opportunity."
+      "type": "standard",
+      "title": "The Solution",
+      "paragraphs": [
+        "After consulting with five different agents, they chose to work with me because of my extensive market knowledge and proven negotiation track record. They needed someone who wouldn't just show them homes, but would guide them through every single step with confidence and clarity—someone who could turn their dream of homeownership into reality."
       ],
-      // An optional image object. If present, creates a two-column layout for this section.
-      image: { src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80" }
+      "image": {
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1764700055163-IMG_5417.jpg"
+      }
     },
     {
-      type: "standard",
-      title: "The Results",
-      // An optional array of strings for a bulleted list.
-      listItems: [
-        "The client won a competitive 10-offer bidding war and secured a turn-key duplex in Woodbridge that now generates strong rental income.",
-        "Both units were rented out at top market value shortly after closing, confirming the investment’s potential.",
-        "<strong>By acting quickly and strategically, the client not only acquired a high-performing property in a competitive market, but also set themselves up for significant equity growth over the next 3–5 years.</strong>"
+      "type": "standard",
+      "title": "The Results",
+      "paragraphs": [
+        "<strong>PURCHASED FOR $64,000 BELOW ORIGINAL ASKING PRICE</strong> ($1,185,000 vs. original $1,329,000 listing)",
+        "<strong>NEGOTIATED $64,000 IN SAVINGS</strong> by identifying seller motivation and structuring terms around their urgent timeline",
+        "<strong>BELOW MARKET VALUE PURCHASE</strong> based on comparable homes of similar size and lot dimensions in the area",
+        "Secured a 2,280 sq ft detached home with 3 bedrooms, 3 bathrooms, and a partial basement with rental income potential",
+        "Achieved their dream of a large lot with parking for 4+ cars in their ideal Vaughan location",
+        "Monthly housing costs are now LOWER than their previous rent while building equity instead of enriching a landlord"
       ]
     },
     {
-      type: "standard",
-      title: "Conclusion",
-      paragraphs: [ "<strong>In a competitive market, success doesn’t always come down to price.</strong> With the right agent, strategy, and negotiation, even a 10-offer bidding war can be an opportunity—not a roadblock." ]
+      "type": "standard",
+      "title": "Conclusion",
+      "paragraphs": [
+        "<strong>Seller motivation is more powerful than list price.</strong> Understanding what drives the seller (in this case, a quick closing for relocation) can unlock massive savings that aggressive price haggling never could.",
+        "<strong>Homeownership might be more affordable than renting.</strong> Many families assume they can't afford to buy, but with the right strategy and agent, your monthly ownership costs can actually be lower than rent—while building wealth instead of paying someone else's mortgage.",
+        "<strong>Think like an investor, even for your primary residence.</strong> Looking for properties with income potential (like basement rental possibilities) transforms your home from just a place to live into a wealth-building asset that works for you."
+      ]
     },
-    // `type: "ctaBanner"`: Renders a distinct, full-width Call-to-Action banner with a dark background.
     {
-      type: "ctaBanner",
-      ctaBannerContent: {
-        subhead: "Trusted By Hundreds Of Home Buyers & Sellers",
-        headline: "Find Out More About Working With<br>Rick Roccasalva and Steven<br>Simonetti at {{companyName}}",
-        smallText: "Book A Discovery Call Now ➡️"
+      "type": "ctaBanner",
+      "ctaBannerContent": {
+        "subhead": "Trusted By Hundreds Of Home Buyers & Sellers",
+        "headline": "Book Your Free Home Buying Strategy Session—Discover Exactly How Much Home You Can Afford and the Hidden Opportunities in Today's Market",
+        "smallText": "Book A Discovery Call Now ➡️"
       }
     }
   ],
-
-  // -----------------------------------------------------------------------------------------------
-  // FOOTER
-  // Content for the footer at the bottom of the page.
-  // -----------------------------------------------------------------------------------------------
-  footer: {
-    logo: { src: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?fit=crop&w=200&q=80" },
-    brokerageLabel: "Brokerage:",
-    brokerageName: "Homelife Partners Realty Corp.",
-    brokerageAddress: "123 Main Street, Suite 456, Toronto, ON M1M 1M1",
-    // A secondary logo, often for the brokerage. Optional.
-    secondaryLogo: { src: "https://i.imgur.com/9GIzqTo.png" },
-    disclaimerText: "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
-    privacyPolicy: { text: "Privacy Policy", href: "#" }
+  "footer": {
+    "logo": {
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767184484-biorick.jpg"
+    },
+    "brokerageLabel": "Brokerage:",
+    "brokerageName": "iStreet Realty Group - HomeLife Partners",
+    "brokerageAddress": "3850 Steeles Avenue W. Unit 6, Woodbridge, Ontario",
+    "secondaryLogo": {
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Untitled-design-2.jpg"
+    },
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "https://istreetrealty.ca/privacy-policy/"
+    }
   }
 };
 
