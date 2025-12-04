@@ -3,7 +3,7 @@ const config = {
     "agents": [
       {
         "name": "Rick Roccasalva",
-        "imageSrc": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767184484-biorick.jpg",
+        "imageSrc": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/KyeQTgnX03giMLGAsQCM/media/681d180c6b471c48f7980705.webp",
         "contactDetails": [
           {
             "type": "email",
@@ -12,6 +12,20 @@ const config = {
           {
             "type": "phone",
             "value": "416 616 9369"
+          }
+        ]
+      },
+      {
+        "name": "Steven Simonetti",
+        "imageSrc": "",
+        "contactDetails": [
+          {
+            "type": "email",
+            "value": "steven@istreetrealty.ca"
+          },
+          {
+            "type": "phone",
+            "value": "(416) 400-7653"
           }
         ]
       }
