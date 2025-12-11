@@ -39,7 +39,7 @@ const config = {
   },
   "header": {
     "tag": "CASE STUDY",
-    "title": "How We Helped a Family of 5 Break Free From Renting and Buy Their Dream Home for $64,000 Below Original Asking",
+    "title": "How We Helped a Family of 5 Break Free From Renting and Buy Their Dream Home for $144,000 Below Original Asking",
     "subheadline": "From Lifetime Renters to Homeowners—Purchased a Spacious 3-Bedroom Detached Home With Income Potential in Their Ideal Location"
   },
   "mainBox": {
