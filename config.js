@@ -106,8 +106,8 @@ const config = {
       "type": "standard",
       "title": "The Results",
       "paragraphs": [
-        "<strong>PURCHASED FOR $64,000 BELOW ORIGINAL ASKING PRICE</strong> ($1,185,000 vs. original $1,329,000 listing)",
-        "<strong>NEGOTIATED $64,000 IN SAVINGS</strong> by identifying seller motivation and structuring terms around their urgent timeline",
+        "<strong>PURCHASED FOR $144,000 BELOW ORIGINAL ASKING PRICE</strong> ($1,185,000 vs. original $1,329,000 listing)",
+        "<strong>NEGOTIATED $144,000 IN SAVINGS</strong> by identifying seller motivation and structuring terms around their urgent timeline",
         "<strong>BELOW MARKET VALUE PURCHASE</strong> based on comparable homes of similar size and lot dimensions in the area",
         "Secured a 2,280 sq ft detached home with 3 bedrooms, 3 bathrooms, and a partial basement with rental income potential",
         "Achieved their dream of a large lot with parking for 4+ cars in their ideal Vaughan location",
