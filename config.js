@@ -44,7 +44,7 @@ const config = {
   },
   "mainBox": {
     "summary": {
-      "title": "How We Helped a Family of 5 Break Free From Renting and Buy Their Dream Home for $144,000 Below Original Asking",
+      "title": "How We Helped a Family of 4 Break Free From Renting and Buy Their Dream Home for $144,000 Below Original Asking",
       "heroImage": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1764700008987-IMG_5415.jpg"
       },
