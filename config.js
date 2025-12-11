@@ -44,14 +44,14 @@ const config = {
   },
   "mainBox": {
     "summary": {
-      "title": "How We Helped a Family of 5 Break Free From Renting and Buy Their Dream Home for $64,000 Below Original Asking",
+      "title": "How We Helped a Family of 5 Break Free From Renting and Buy Their Dream Home for $144,000 Below Original Asking",
       "heroImage": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1764700008987-IMG_5415.jpg"
       },
       "subTitle": "Summary",
       "paragraphs": [
         "Meet a family of five who had been renting for years and believed homeownership was out of reach. With three adult children needing space and monthly rent eating away at their income, they were ready for a change—but didn't know if they could make it work financially or navigate the intimidating buying process.",
-        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>PURCHASED FOR $64,000 BELOW ORIGINAL ASKING PRICE</strong> ($1,185,000 vs. original $1,329,000 listing), <strong>NEGOTIATED $64,000 IN SAVINGS</strong> by identifying seller motivation and structuring terms around their urgent timeline. <strong>BELOW MARKET VALUE PURCHASE</strong>, based on comparable homes of similar size and lot dimensions in the area Secured a 2,280 sq ft detached home with 3 bedrooms, 3 bathrooms, and a partial basement with rental income potential. Achieved their dream of a large lot with parking for 4+ cars in their ideal Vaughan location Monthly housing costs are now LOWER than their previous rent while building equity instead of enriching a landlord"
+        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>PURCHASED FOR $144,000 BELOW ORIGINAL ASKING PRICE</strong> ($1,185,000 vs. original $1,329,000 listing), <strong>NEGOTIATED $144,000 IN SAVINGS</strong> by identifying seller motivation and structuring terms around their urgent timeline. <strong>BELOW MARKET VALUE PURCHASE</strong>, based on comparable homes of similar size and lot dimensions in the area Secured a 2,280 sq ft detached home with 3 bedrooms, 3 bathrooms, and a partial basement with rental income potential. Achieved their dream of a large lot with parking for 4+ cars in their ideal Vaughan location Monthly housing costs are now LOWER than their previous rent while building equity instead of enriching a landlord"
       ]
     },
     "sidebar": {
